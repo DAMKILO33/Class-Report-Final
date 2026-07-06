@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:email_validator/email_validator.dart';
 
-import '../common-diego/app_colors.dart';
+import '../common_diego/app_colors.dart';
 
 class ProfilePage extends StatefulWidget {
   final String role;

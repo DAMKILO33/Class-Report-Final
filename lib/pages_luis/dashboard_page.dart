@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../model-diego/incidence_model.dart';
+import '../common_diego/app_colors.dart';
+import '../model_diego/incidence_model.dart';
 
 class DashboardPage extends StatelessWidget {
   final String role;

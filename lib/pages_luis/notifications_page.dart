@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
+import '../common_diego/app_colors.dart';
 
 class NotificationsPage extends StatelessWidget {
   const NotificationsPage({super.key});

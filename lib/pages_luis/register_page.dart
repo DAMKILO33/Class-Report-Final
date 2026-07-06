@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../widgets-mirian/custom_text_field.dart';
+import '../common_diego/app_colors.dart';
+import '../widgets_mirian/custom_text_field.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});

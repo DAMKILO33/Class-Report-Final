@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../model-diego/classroom_model.dart';
+import '../common_diego/app_colors.dart';
+import '../model_diego/classroom_model.dart';
 
 class ClassroomsPage extends StatelessWidget {
   const ClassroomsPage({super.key});

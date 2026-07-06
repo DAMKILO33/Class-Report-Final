@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../menu-jesus/auth_service.dart';
+import '../common_diego/app_colors.dart';
+import '../menu_jesus/auth_service.dart';
 import 'home_page.dart';
 import 'login_page.dart';
 

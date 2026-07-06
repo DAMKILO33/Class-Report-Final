@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-// Importa las páginas de cada compañero
-import 'pages_luis/home_page.dart';       // Luis
-import 'menu_jesus/app_routes.dart';      // Jesús
-import 'widgets_mirian/app_logo.dart';    // Mirian
-// Diego: sus modelos se usan en lógica, no como pantallas
+import 'common_diego/app_theme.dart';
+import 'menu_jesus/app_routes.dart';
+import 'menu_jesus/auth_provider.dart';
+import 'menu_jesus/cart_provider.dart';
+import 'menu_jesus/user_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,15 +16,20 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Class Report Final',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const HomePage(),   // Luis
-        '/menu': (context) => const MenuPage(), // Jesús
-        '/logo': (context) => const AppLogo(), // Mirian
-      },
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => UserProvider()),
+        ChangeNotifierProvider(create: (_) => CartProvider()),
+        ChangeNotifierProvider(create: (_) => AuthProvider()),
+      ],
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Class Report Final',
+        theme: AppTheme.lightTheme,
+        darkTheme: AppTheme.darkTheme,
+        initialRoute: AppRoutes.root,
+        onGenerateRoute: AppRoutes.generateRoute,
+      ),
     );
   }
 }

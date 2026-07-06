@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../menu-jesus/auth_service.dart';
-import '../widgets-mirian/app_logo.dart';
-import '../widgets-mirian/custom_text_field.dart';
+import '../common_diego/app_colors.dart';
+import '../menu_jesus/auth_service.dart';
+import '../widgets_mirian/app_logo.dart';
+import '../widgets_mirian/custom_text_field.dart';
 import 'home_page.dart';
 import 'register_page.dart';
 

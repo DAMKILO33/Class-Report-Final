@@ -15,6 +15,10 @@ void main() {
     await tester.pumpWidget(const MyApp());
 
     expect(find.textContaining('ClassReport'), findsWidgets);
+
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+
     expect(find.text('Iniciar sesion'), findsOneWidget);
     expect(find.byIcon(Icons.email_outlined), findsOneWidget);
   });

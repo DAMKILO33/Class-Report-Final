@@ -1,4 +1,4 @@
-import '../model-diego/user_model.dart';
+import '../model_diego/user_model.dart';
 
 class AuthService {
   AuthService._internal();

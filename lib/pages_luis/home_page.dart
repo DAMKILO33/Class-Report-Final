@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../common-diego/app_colors.dart';
-import '../menu-jesus/app_routes.dart';
-import '../menu-jesus/auth_service.dart';
-import '../model-diego/incidence_model.dart';
+import '../common_diego/app_colors.dart';
+import '../menu_jesus/app_routes.dart';
+import '../menu_jesus/auth_service.dart';
+import '../model_diego/incidence_model.dart';
 import 'classrooms_page.dart';
 import 'dashboard_page.dart';
 import 'profile_page.dart';

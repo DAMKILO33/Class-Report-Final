@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../model-diego/product_model.dart';
+import '../model_diego/product_model.dart';
 
 class CartProvider with ChangeNotifier {
   final List<ProductModel> _items = [];

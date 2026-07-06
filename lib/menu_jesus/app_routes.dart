@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../pages-luis/cart_page.dart';
-import '../pages-luis/home_page.dart';
-import '../pages-luis/login_page.dart';
-import '../pages-luis/splash_page.dart';
+import '../pages_luis/cart_page.dart';
+import '../pages_luis/home_page.dart';
+import '../pages_luis/login_page.dart';
+import '../pages_luis/splash_page.dart';
 
 class AppRoutes {
   static const String root = '/';

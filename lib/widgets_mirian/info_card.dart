@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Providers
-import 'menu-jesus/user_provider.dart';
-import 'menu-jesus/cart_provider.dart';
-import 'menu-jesus/auth_provider.dart';
+import '../menu_jesus/user_provider.dart';
+import '../menu_jesus/cart_provider.dart';
+import '../menu_jesus/auth_provider.dart';
 
 // Theme
-import 'common-diego/app_theme.dart';
+import '../common_diego/app_theme.dart';
 
 // Widgets
-import './widgets-mirian/app_logo.dart';
+import 'app_logo.dart';
 
 void main() {
   runApp(const MyApp());
