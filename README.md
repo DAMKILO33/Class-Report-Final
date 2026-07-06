@@ -1,8 +1,6 @@
-# ClassReport - Proyecto Flutter organizado por integrantes
+# ClassReport
 
-Proyecto reorganizado para que el contenido de `lib` quede distribuido por carpetas con el nombre de los integrantes, manteniendo las importaciones actualizadas para ejecutar con Flutter.
-
-## Estructura principal dentro de `lib`
+## Estructura que se uso dentro de `lib`
 
 - `common-diego/`: colores, tema, tipografías, constantes, validadores y utilidades comunes.
 - `model-diego/`: modelos de datos de usuario, aula, incidencia y producto.
@@ -11,12 +9,11 @@ Proyecto reorganizado para que el contenido de `lib` quede distribuido por carpe
 - `menu-jesus/`: rutas, providers y servicios.
 - `main.dart`: archivo principal requerido por Flutter.
 
-## Cómo ejecutar
+## Se ejecuta usando la terminal ctrl ñ
 
 ```bash
 flutter clean
 flutter pub get
 flutter run
-```
 
 > Abrir en VS Code la carpeta donde se encuentra `pubspec.yaml`.
