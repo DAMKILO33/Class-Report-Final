@@ -15,7 +15,7 @@ class AppLogo extends StatelessWidget {
         ),
         SizedBox(height: 10),
         Text(
-          "Mi App",
+          "ClassReport",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.bold,
