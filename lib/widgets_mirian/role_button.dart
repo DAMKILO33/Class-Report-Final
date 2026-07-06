@@ -21,28 +21,22 @@ class RoleButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: 72,
-        padding: const EdgeInsets.symmetric(vertical: 8),
+        width: 80,
+        padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          color: isSelected ? color.withAlpha(31) : Colors.white,
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(
-            color: isSelected ? color : const Color(0xFFE2E8F0),
-            width: isSelected ? 2 : 1,
-          ),
+          color: isSelected ? color : Colors.white,
+          border: Border.all(color: color),
+          borderRadius: BorderRadius.circular(12),
         ),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, color: color, size: 25),
+            Icon(icon, color: Colors.black, size: 22),
             const SizedBox(height: 5),
             Text(
               title,
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 9,
-                fontWeight: FontWeight.bold,
-                color: isSelected ? color : Colors.black87,
-              ),
+              style: const TextStyle(fontSize: 10),
             ),
           ],
         ),
